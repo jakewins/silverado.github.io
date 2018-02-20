@@ -1,0 +1,35 @@
+# Permalinks
+permalink:           /p/:slug
+
+# Setup
+title:               Silverado innards
+tagline:
+description:         Picking apart Chevy Silverados
+url:                 https://silverado.github.io
+paginate:            8
+baseurl:             ""
+excerpt_separator:   <!--more-->
+analytics_id:        UA-12012013-12
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Jacob Hansson
+  url:               https://twitter.com/jakewins
+  email:             jakewins@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/jakewins/silverado.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
